@@ -1,0 +1,21 @@
+{
+  "name": "instrumented-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "appoptics:non": "node non-http-appoptics.js",
+    "solarwinds:non": "node non-http-solarwinds.js",
+    "appoptics:server": "node server-appoptics.js",
+    "solarwinds:server": "node server-solarwinds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ron Ilan",
+  "license": "ISC",
+  "dependencies": {
+    "appoptics-apm": "^10.2.2",
+    "solarwinds-apm": "^11.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
